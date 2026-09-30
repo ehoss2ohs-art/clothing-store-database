@@ -110,4 +110,14 @@ SELECT SUM(StockCostValue) AS StockValue FROM vw_Inventory;
 
 [LinkedIn](https://www.linkedin.com/in/hussein-junaidy)
 
-</div>
+</div>    
+
+---
+
+## 📊 Python Dashboard
+تم بناء Dashboard تفاعلي باستخدام Python (Streamlit + Pandas + Plotly) للاتصال بقاعدة البيانات وعرض المبيعات والمخزون بشكل بصري.
+
+**لتشغيل الداشبورد محلياً:**
+```bash
+pip install -r requirements.txt
+streamlit run myProject.py
